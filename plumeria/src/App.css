@@ -1,4 +1,20 @@
-.App {
+.navbar{
+  padding: 0;
+  margin: 0;
+  color: green;
+  text-align: center;
+  padding-bottom: 50px;
+  margin: 20px;
+  font-weight: 700;
+}
+
+
+
+
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +51,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
