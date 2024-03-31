@@ -6,32 +6,23 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="tabLinks">
                     <Link className= "link" to="/Locations">Locations</Link>
-                    {/* <Link className= "link" to="/Menu">Menu</Link> */}
 
-                    <div class="dropdown">
-                        <button class="menuBtn">Menu
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div className='dropDownMenu'>
+                {/* <Link className= "link" to="/Menu">Menu</Link> */}
+                    <Link className='dropdown'>
+                        <button className="menuTab">Menu</button>
+                        
+
+                    </Link>
+                    {/* <div className='dropdownLinks'>
                             <button>Menu 1</button>
                             <button>Menu 2</button>
                             <button>Menu 3</button>
-                        </div>
-                    </div>
-
+                    </div> */}
+                    
+                    {/* <button>button</button> */}
                     <Link className= "logoLink" to="/"><img className="img-fluid"src={require('./Plumeria Logo.png')} alt="Plumeria Logo"/> </Link>
                     <Link className= "link" to="/Order">Order Online</Link>
 
-                    {/* <div class="dropdown">
-                        <button class="menuBtn">Order Online
-                        <i class="fa fa-caret-down"></i>
-                        </button>
-                        <div className='dropDownMenu'>
-                            <button>Menu 1</button>
-                            <button>Menu 2</button>
-                            <button>Menu 3</button>
-                        </div>
-                    </div> */}
                     
                     <Link className= "link" to="/About">About Us</Link>
 
